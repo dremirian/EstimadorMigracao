@@ -155,17 +155,7 @@ export function MigrationForm({
                 className="mt-1"
               />
             </div>
-            <div>
-              <Label htmlFor="dbaHourCost">Custo/hora DBA (BRL)</Label>
-              <Input
-                id="dbaHourCost"
-                type="number"
-                value={config.dbaHourCost}
-                onChange={(e) => handleConfigChange('dbaHourCost', parseFloat(e.target.value) || 0)}
-                className="mt-1"
-              />
-            </div>
-          </div>
+                      </div>
         </CardContent>
       </Card>
 
