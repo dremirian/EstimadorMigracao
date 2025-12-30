@@ -265,7 +265,7 @@ if (databases.length > 0) {
       doc.setFontSize(10);
       doc.setFont('helvetica', 'bold');
       doc.setTextColor(darkBlue[0], darkBlue[1], darkBlue[2]);
-      doc.text(`TEMPO TOTAL ESTIMADO: ${totalHours}`, margin + 5, yPosition + 8);
+      //doc.text(`TEMPO TOTAL ESTIMADO: ${totalHours}`, margin + 5, yPosition + 8);
       yPosition += 20;
 
       doc.setFontSize(8);
