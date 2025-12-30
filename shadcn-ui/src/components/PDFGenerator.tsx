@@ -255,10 +255,10 @@ if (databases.length > 0) {
     yPosition += 15;
 
     if (activities.length > 0) {
-      const totalMinutes = activities.reduce((total, activity) => {
-        return total + parseTimeStr(activity.timeEstimate);
-      }, 0);
-      const totalHours = minutesToHHMM(totalMinutes);
+      //const totalMinutes = activities.reduce((total, activity) => {
+      //  return total + parseTimeStr(activity.timeEstimate);
+     //}, 0);
+     // const totalHours = minutesToHHMM(totalMinutes);
 
       // Summary box
       addColoredRect(margin, yPosition, pageWidth - 2 * margin, 12, lightBlue);
